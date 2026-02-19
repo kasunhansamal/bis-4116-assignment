@@ -39,7 +39,7 @@ The dataset contains **19,158** records with features including:
 Before analysis, the data must be cleaned to ensure accuracy. This dataset contains a significant amount of missing information which must be addressed.
 
 ### 3.1 Loading and Inspection
-We began by loading the dataset and inspecting the data types and structure.
+The process began by loading the dataset and inspecting the data types and structure.
 
 ![Data Loading and Info](images/data_info.png)
 *Figure 1: Output of `df.info()` showing column types and non-null counts.*
@@ -51,7 +51,7 @@ A check for null values revealed significant gaps in columns like `company_type`
 *Figure 2: Output of `df.isnull().sum()` showing the count of missing values per column.*
 
 **Cleaning Strategy:**
-For this analysis, we adopted a strategy of **dropping rows with missing values** to ensure that our correlations and visualizations are based on complete, high-confidence data. While imputation is an option, dropping ensures we don't introduce bias into categorical variables like "Company Type".
+For this analysis, a strategy of **dropping rows with missing values** was adopted to ensure that correlations and visualizations are based on complete, high-confidence data. While imputation is an option, dropping ensures that no bias is introduced into categorical variables like "Company Type".
 
 ![Cleaning Result](images/cleaning_result.png)
 *Figure 3: Output showing the shape of the dataframe before and after dropping NaNs.*
@@ -75,13 +75,13 @@ The candidate pool is diverse, ranging from fresh graduates (<1 year) to veteran
 ## 5. Statistical Analysis & Visualization
 
 ### 5.1 Education Level Impact
-We analyzed how education influences the desire to change jobs. Graduates appear to be the largest segment looking for changes, likely due to being early in their careers.
+The analysis examined how education influences the desire to change jobs. Graduates appear to be the largest segment looking for changes, likely due to being early in their careers.
 
 ![Job Change Interest by Education Level](images/ss3.png)
 *Figure 6: Job Change Interest grouped by Education Level.*
 
 ### 5.2 The City Development Index (CDI) Factor
-This was the most critical finding. We used a boxplot to compare the CDI of candidates looking for a change versus those who are not.
+This was the most critical finding. A boxplot was used to compare the CDI of candidates looking for a change versus those who are not.
 
 ![City Development Index vs. Job Change Interest](images/ss4.png)
 *Figure 7: Boxplot of City Development Index by Job Change Status.*
@@ -92,7 +92,7 @@ This was the most critical finding. We used a boxplot to compare the CDI of cand
 - This indicates a strong environmental push factor: candidates in less developed cities want to move (likely to better cities or for better pay).
 
 ### 5.3 Correlation Matrix
-We generated a heatmap to quantify relationships between numeric variables.
+A heatmap was generated to quantify relationships between numeric variables.
 
 ![Correlation Matrix](images/ss5.png)
 *Figure 8: Correlation Matrix of Numeric Features.*
