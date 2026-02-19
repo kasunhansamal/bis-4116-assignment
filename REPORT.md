@@ -4,7 +4,7 @@
 **Registration Number:** 2021/IS/034
 **Index Number:** 21020345
 **Dataset URL:** https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists
-**Github Repository URL:** [Insert Github Repo URL Here]
+**Github Repository URL:** https://github.com/kasunhansamal/bis-4116-assignment.git
 
 ---
 
