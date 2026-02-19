@@ -125,8 +125,3 @@ We generated a heatmap to quantify relationships between numeric variables.
 *   **Recruitment Focus:** If the company wants to hire candidates who are *eager* to move, they should target cities with lower Development Indices. The acquisition cost might be lower, and the candidate interest higher.
 *   **Retention Challenges:** Hiring from low CDI areas comes with a risk. If the job is remote or involves relocation to a high CDI city, retention might be high. However, if the job remains in a low CDI area, these employees will remain a "flight risk" as they continue to seek better environmental conditions.
 *   **Training ROI:** The company should not expect training programs to serve as a retention tool. Training should be optimized for skill acquisition efficiency rather than duration, as longer training does not build loyalty.
-
-### 6.3 Future Work
-*   **Predictive Modeling:** The next step is to build a Logistic Regression or Random Forest model to predict the probability of `target=1` for new applicants.
-*   **Imputation:** Future analysis could use advanced imputation (e.g., KNN) for missing values instead of dropping them, to preserve more data points.
-
