@@ -16,7 +16,6 @@ This report presents a comprehensive analysis of the "HR Analytics: Job Change o
 - **Training Hours** have almost zero correlation with job-seeking behavior. This implies that offering more training hours alone is not an effective retention strategy.
 - **Education Level** and **Experience** show distinct patterns, with STEM graduates showing specific tendencies toward job mobility.
 
----
 
 ## 2. Business Domain & Problem Statement
 
@@ -34,7 +33,6 @@ The dataset contains **19,158** records with features including:
 - **Training:** Training Hours.
 - **Macro-Environment:** City Development Index (CDI).
 
----
 
 ## 3. Data Preprocessing & Cleaning
 
@@ -58,7 +56,6 @@ For this analysis, we adopted a strategy of **dropping rows with missing values*
 ![Cleaning Result](images/cleaning_result.png)
 *Figure 3: Output showing the shape of the dataframe before and after dropping NaNs.*
 
----
 
 ## 4. Exploratory Data Analysis (EDA)
 
@@ -74,7 +71,6 @@ The candidate pool is diverse, ranging from fresh graduates (<1 year) to veteran
 ![Distribution of Candidate Experience](images/ss2.png)
 *Figure 5: Distribution of Experience (Years).*
 
----
 
 ## 5. Statistical Analysis & Visualization
 
@@ -105,7 +101,6 @@ We generated a heatmap to quantify relationships between numeric variables.
 - **CDI vs Target (-0.42):** A moderate-to-strong negative correlation. As CDI goes up, the "Target" (looking for a job) goes down.
 - **Training Hours vs Target (-0.01):** Extremely weak correlation. There is no linear relationship between how much training a candidate receives and their intent to leave.
 
----
 
 ## 6. Detailed Interpretation & Conclusions
 
